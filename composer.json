@@ -1,0 +1,23 @@
+{
+	"name"             : "and/dpd-shipping-api",
+	"description"      : "API for DPD shipping",
+	"license"          : "GPL-3.0",
+	"authors"          : [
+		{
+			"name" : "And",
+			"email": "and.webdev@gmail.com"
+		}
+	],
+	"minimum-stability": "dev",
+	"require"          : {
+		"php"               : ">=5.3.3",
+		"symfony/validator" : "~2.3.3",
+		"doctrine/common"   : "~2.4",
+		"kriswallsmith/buzz": "~0.10"
+	},
+	"autoload"         : {
+		"psr-0": {
+			"DPD\\": ""
+		}
+	}
+}
